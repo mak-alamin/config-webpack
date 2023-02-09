@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "dev" : "npx webpack serve",
+    "build" : "npx webpack"
+  },
   "keywords": [],
   "author": "Mak Alamin",
   "license": "ISC",
